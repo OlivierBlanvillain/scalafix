@@ -15,6 +15,7 @@ object Rewrite {
   }
 
   val name2rewrite: Map[String, Rewrite] = nameMap[Rewrite](
+    NoPredef,
     ProcedureSyntax,
     VolatileLazyVal
   )
